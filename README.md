@@ -38,19 +38,19 @@
 <section align="center">
     <h1>Socials of BEST Vinnytsia</h1>
     <div>
-        <a href="https://BEST-Vinnytsia.org" target="_blank">
+        <a style="text-decoration: none" href="https://BEST-Vinnytsia.org" target="_blank">
             <img width="36" height="36" src="./assets/website.svg" alt="BEST-Vinnytsia.org"/>
         </a>
-        <a href="https://www.instagram.com/bestvinnytsia" target="_blank">
+        <a style="text-decoration: none" href="https://www.instagram.com/bestvinnytsia" target="_blank">
             <img width="36" height="36" src="./assets/instagram.svg" alt="instagram"/>
         </a>
-        <a href="https://t.me/bestvinnytsia" target="_blank">
+        <a style="text-decoration: none" href="https://t.me/bestvinnytsia" target="_blank">
             <img width="36" height="36" src="./assets/telegram.svg" alt="telegram"/>
         </a>
-        <a href="https://www.linkedin.com/company/best-vinnytsia" target="_blank">
+        <a style="text-decoration: none" href="https://www.linkedin.com/company/best-vinnytsia" target="_blank">
             <img width="36" height="36" src="./assets/linkedin.svg" alt="linkedin"/>
         </a>
-        <a href="https://www.facebook.com/best.vinnytsia.org" target="_blank">
+        <a style="text-decoration: none" href="https://www.facebook.com/best.vinnytsia.org" target="_blank">
             <img width="36" height="36" src="./assets/facebook.svg" alt="facebook"/>
         </a>
     </div>
