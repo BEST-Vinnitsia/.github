@@ -1,131 +1,57 @@
-<style>
-    .header {
-        margin-bottom: 16px;
-    }
-
-    .header__title {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        text-decoration: none;
-        line-height: 1.5;
-    }
-
-    .section {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        margin-bottom: 16px;
-    }
-
-    .section__title {
-        margin: 0;
-        padding: 0;
-        font-size: 1.25rem;
-        text-align: center;
-        text-decoration: none;
-        line-height: 1.5;
-    }
-
-    .section__paragraph {
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        text-decoration: none;
-        line-height: 1.5
-    }
-
-    .section__images {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        flex-shrink: 0;
-        gap: 16px;
-    }
-
-    .section__images > *,
-    .section__images-link > * {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        width: 100%;
-        height: 100%;
-        max-width: 48px;
-        max-height: 48px;
-    }
-
-    .section__images-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        width: 100%;
-        height: 100%;
-        max-width: 48px;
-        max-height: 48px;
-    }
-</style>
-
-<!---->
-<!---->
-<!---->
-
-<header class="header">
-    <h1 class="header__title"> Board of European Students of Technology in Vinnytsia </h1>
+<header style="margin-bottom: 16px;">
+    <h1 style="margin: 0; padding: 0; text-align: center; text-decoration: none; line-height: 1.5;"> Board of European Students of Technology in Vinnytsia </h1>
 </header>
 
-<section class="section">
-    <h1 class="section__title">LBG BEST-Vinnytsia</h1>
-    <p class="section__paragraph">
+<section style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 16px;">
+    <h1 style="margin: 0; padding: 0; font-size: 1.25rem; text-align: center; text-decoration: none; line-height: 1.5;">LBG BEST-Vinnytsia</h1>
+    <p style="margin: 0; padding: 0; text-align: center; text-decoration: none; line-height: 1.5">
         BEST, Board of European Students of Technology is a voluntary and politically unaffiliated non-profit
         organisation.
         Since 1989 we provide communication, co-operation and exchange possibilities for students all over Europe.
     </p>
-    <p class="section__paragraph">
+    <p style="margin: 0; padding: 0; text-align: center; text-decoration: none; line-height: 1.5">
         BEST Vinnytsia is a local group of BEST founded in 2010.
         It organizes events aimed at student development and has corresponding departments.
         The IT department provides training and development for members of BEST Vinnytsia in the IT field.
     </p>
 </section>
 
-<section class="section">
-    <h1 class="section__title">Technologies in LBG</h1>
-    <div class="section__images">
-        <img src="./assets/python.png" alt="Python"/>
-        <img src="./assets/flask.png" alt="Flask"/>
-        <img src="./assets/ts.svg" alt="TypeScript"/>
-        <img src="./assets/js.svg" alt="JavaScript"/>
-        <img src="./assets/react.svg" alt="React.js"/>
-        <img src="./assets/next.svg" alt="Next.js"/>
-        <img src="./assets/redux.svg" alt="Redux"/>
-        <img src="./assets/tailwind.svg" alt="Tailwind"/>
-        <img src="./assets/node.svg" alt="Node.js"/>
-        <img src="./assets/aws.svg" alt="AWS"/>
-        <img src="./assets/cloudflare.svg" alt="Cloudflare"/>
-        <img src="./assets/docker.svg" alt="Docker"/>
-        <img src="./assets/figma.svg" alt="Figma"/>
+<section style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 16px;">
+    <h1 style="margin: 0; padding: 0; font-size: 1.25rem; text-align: center; text-decoration: none; line-height: 1.5;">Technologies in LBG</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; flex-shrink: 0; gap: 16px;">
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/python.png" alt="Python"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/flask.png" alt="Flask"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/ts.svg" alt="TypeScript"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/js.svg" alt="JavaScript"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/react.svg" alt="React.js"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/next.svg" alt="Next.js"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/redux.svg" alt="Redux"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/tailwind.svg" alt="Tailwind"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/node.svg" alt="Node.js"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/aws.svg" alt="AWS"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/cloudflare.svg" alt="Cloudflare"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/docker.svg" alt="Docker"/>
+        <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/figma.svg" alt="Figma"/>
     </div>
 </section>
 
-<section class="section">
-    <h1 class="section__title">Socials of BEST Vinnytsia</h1>
-    <div class="section__images">
-        <a class="section__images-link" href="https://BEST-Vinnytsia.org" target="_blank">
-            <img src="./assets/website.svg" alt="BEST-Vinnytsia.org"/>
+<section style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 16px;">
+    <h1 style="margin: 0; padding: 0; font-size: 1.25rem; text-align: center; text-decoration: none; line-height: 1.5;">Socials of BEST Vinnytsia</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; flex-shrink: 0; gap: 16px;">
+        <a style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" href="https://BEST-Vinnytsia.org" target="_blank">
+            <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/website.svg" alt="BEST-Vinnytsia.org"/>
         </a>
-        <a class="section__images-link" href="https://www.instagram.com/bestvinnytsia" target="_blank">
-            <img src="./assets/instagram.svg" alt="instagram"/>
+        <a style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" href="https://www.instagram.com/bestvinnytsia" target="_blank">
+            <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/instagram.svg" alt="instagram"/>
         </a>
-        <a class="section__images-link" href="https://t.me/bestvinnytsia" target="_blank">
-            <img src="./assets/telegram.svg" alt="telegram"/>
+        <a style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" href="https://t.me/bestvinnytsia" target="_blank">
+            <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/telegram.svg" alt="telegram"/>
         </a>
-        <a class="section__images-link" href="https://www.linkedin.com/company/best-vinnytsia" target="_blank">
-            <img src="./assets/linkedin.svg" alt="linkedin"/>
+        <a style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" href="https://www.linkedin.com/company/best-vinnytsia" target="_blank">
+            <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/linkedin.svg" alt="linkedin"/>
         </a>
-        <a class="section__images-link" href="https://www.facebook.com/best.vinnytsia.org" target="_blank">
-            <img src="./assets/facebook.svg" alt="facebook"/>
+        <a style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" href="https://www.facebook.com/best.vinnytsia.org" target="_blank">
+            <img style="display: flex; align-items: center; justify-content: center; flex-shrink: 0; width: 100%; height: 100%; max-width: 48px; max-height: 48px;" src="./assets/facebook.svg" alt="facebook"/>
         </a>
     </div>
 </section>
